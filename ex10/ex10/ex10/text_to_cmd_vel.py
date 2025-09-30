@@ -28,9 +28,9 @@ class TextToCmdVel(Node):
         elif cmd == 'move_backward':
             twist.linear.x = -1.0
         elif cmd == 'turn_left':
-            twist.angular.z = 1.5
+            twist.angular.z = 1.0
         elif cmd == 'turn_right':
-            twist.angular.z = -1.5
+            twist.angular.z = -1.0
         else:
             self.get_logger().warn(f'Unknown command: {cmd}')
             return
