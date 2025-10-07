@@ -35,7 +35,6 @@ public:
     dist_tol_ = 0.05;
     theta_tol_ = 0.02;
 
-    // QoS как у sensor data: BEST_EFFORT
     rclcpp::QoS qos(rclcpp::KeepLast(10));
     qos.best_effort();
 
@@ -129,7 +128,6 @@ private:
 int main(int argc, char ** argv) {
   rclcpp::init(argc, argv);
 
-  // Уберём ROS-аргументы и оставим позиционные x y theta
   auto args_no_ros = rclcpp::remove_ros_arguments(argc, argv);
   if (args_no_ros.size() != 4) {
     std::cerr << "Usage:\n"
