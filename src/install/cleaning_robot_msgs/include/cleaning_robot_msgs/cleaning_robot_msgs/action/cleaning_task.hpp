@@ -1,1 +1,0 @@
-/home/capybariana/workspace/ros2_ws/src/build/cleaning_robot_msgs/rosidl_generator_cpp/cleaning_robot_msgs/action/cleaning_task.hpp

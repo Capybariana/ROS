@@ -1,1 +1,0 @@
-/home/capybariana/workspace/ros2_ws/src/build/cleaning_robot_msgs/rosidl_typesupport_fastrtps_cpp/cleaning_robot_msgs/action/detail/cleaning_task__rosidl_typesupport_fastrtps_cpp.hpp

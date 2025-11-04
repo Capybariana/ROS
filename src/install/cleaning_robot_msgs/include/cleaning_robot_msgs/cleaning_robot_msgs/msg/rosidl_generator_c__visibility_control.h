@@ -1,1 +1,0 @@
-/home/capybariana/workspace/ros2_ws/src/build/cleaning_robot_msgs/rosidl_generator_c/cleaning_robot_msgs/msg/rosidl_generator_c__visibility_control.h

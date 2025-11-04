@@ -1,1 +1,0 @@
-/home/capybariana/workspace/ros2_ws/src/build/cleaning_robot_msgs/rosidl_typesupport_introspection_c/cleaning_robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

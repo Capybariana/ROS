@@ -1,1 +1,0 @@
-/home/capybariana/workspace/ros2_ws/src/build/cleaning_robot_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
