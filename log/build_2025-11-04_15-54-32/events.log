@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000317] (-) JobUnselected: {'identifier': 'capybariana'}
+[0.000394] (-) JobUnselected: {'identifier': 'cleaning_robot'}
+[0.000417] (-) JobUnselected: {'identifier': 'cleaning_robot_msgs'}
+[0.000463] (-) JobUnselected: {'identifier': 'ex02'}
+[0.000483] (-) JobUnselected: {'identifier': 'ex03'}
+[0.000499] (-) JobUnselected: {'identifier': 'ex10'}
+[0.000514] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000529] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000543] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000558] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000572] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000586] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000601] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000615] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000630] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000645] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000659] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000673] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000688] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000703] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000717] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000731] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000745] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000759] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000773] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000787] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000801] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000816] (-) JobUnselected: {'identifier': 'full_name_pkg'}
+[0.000831] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000845] (-) JobUnselected: {'identifier': 'move_to_goal'}
+[0.000860] (-) JobUnselected: {'identifier': 'service_full_name'}
+[0.000880] (time_travel) JobQueued: {'identifier': 'time_travel', 'dependencies': OrderedDict()}
+[0.001662] (time_travel) JobStarted: {'identifier': 'time_travel'}
+[0.099258] (-) TimerEvent: {}
+[0.199919] (-) TimerEvent: {}
+[0.300541] (-) TimerEvent: {}
+[0.401235] (-) TimerEvent: {}
+[0.501750] (-) TimerEvent: {}
+[0.602305] (-) TimerEvent: {}
+[0.702900] (-) TimerEvent: {}
+[0.803521] (-) TimerEvent: {}
+[0.903947] (-) TimerEvent: {}
+[1.005429] (-) TimerEvent: {}
+[1.089127] (time_travel) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/time_travel', 'build', '--build-base', '/home/capybariana/workspace/ros2_ws/build/time_travel/build', 'install', '--record', '/home/capybariana/workspace/ros2_ws/build/time_travel/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/capybariana/workspace/ros2_ws/time_travel', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'capybariana', 'GIT_ASKPASS': '/home/capybariana/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/capybariana/workspace/ros2_ws/src/install/cleaning_robot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/capybariana', 'OLDPWD': '/home/capybariana/workspace', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-55e2e526-6834-4b22-9388-538e3a4798ad.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/capybariana/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/capybariana/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/capybariana/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/capybariana/workspace/ros2_ws/install:/home/capybariana/workspace/install:/home/capybariana/workspace/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'capybariana', 'NAME': 'Akemi', 'WSL_INTEROP': '/run/WSL/927_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/capybariana/.local/bin:/home/capybariana/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/home/capybariana/.local/bin:/opt/ros/humble/bin:/home/capybariana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/MATLAB Runtime/R2023b/runtime/win64:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/novip/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/novip/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/novip/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/novip/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/capybariana/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/capybariana/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ed532f30d17c5cac.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/capybariana/.vscode-server/data/User/workspaceStorage/fae6e1b70cee7b1205d85d29008494ef/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-337c5c4739.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/capybariana/workspace/ros2_ws/install/time_travel:/home/capybariana/workspace/ros2_ws/install/ex03:/home/capybariana/workspace/install/ex10:/home/capybariana/workspace/install/ex02:/home/capybariana/workspace/ros2_ws/src/install/cleaning_robot:/home/capybariana/workspace/ros2_ws/src/install/cleaning_robot_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/capybariana/workspace/ros2_ws/build/time_travel', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/capybariana/workspace/ros2_ws/build/time_travel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/capybariana/workspace/ros2_ws/install/time_travel/lib/python3.10/site-packages:/home/capybariana/workspace/ros2_ws/install/time_travel/lib/python3.10/site-packages:/home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages:/home/capybariana/workspace/install/ex10/lib/python3.10/site-packages:/home/capybariana/workspace/install/ex02/lib/python3.10/site-packages:/home/capybariana/workspace/ros2_ws/src/build/cleaning_robot:/home/capybariana/workspace/ros2_ws/src/install/cleaning_robot/lib/python3.10/site-packages:/home/capybariana/workspace/ros2_ws/src/install/cleaning_robot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/capybariana/workspace/ros2_ws/src/install/cleaning_robot_msgs', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.105604] (-) TimerEvent: {}
+[1.205999] (-) TimerEvent: {}
+[1.306485] (-) TimerEvent: {}
+[1.397176] (time_travel) StdoutLine: {'line': b'running egg_info\n'}
+[1.406724] (-) TimerEvent: {}
+[1.416081] (time_travel) StdoutLine: {'line': b'writing ../build/time_travel/time_travel.egg-info/PKG-INFO\n'}
+[1.417105] (time_travel) StdoutLine: {'line': b'writing dependency_links to ../build/time_travel/time_travel.egg-info/dependency_links.txt\n'}
+[1.417668] (time_travel) StdoutLine: {'line': b'writing entry points to ../build/time_travel/time_travel.egg-info/entry_points.txt\n'}
+[1.417824] (time_travel) StdoutLine: {'line': b'writing requirements to ../build/time_travel/time_travel.egg-info/requires.txt\n'}
+[1.418096] (time_travel) StdoutLine: {'line': b'writing top-level names to ../build/time_travel/time_travel.egg-info/top_level.txt\n'}
+[1.454991] (time_travel) StdoutLine: {'line': b"reading manifest file '../build/time_travel/time_travel.egg-info/SOURCES.txt'\n"}
+[1.456366] (time_travel) StdoutLine: {'line': b"writing manifest file '../build/time_travel/time_travel.egg-info/SOURCES.txt'\n"}
+[1.456750] (time_travel) StdoutLine: {'line': b'running build\n'}
+[1.456862] (time_travel) StdoutLine: {'line': b'running build_py\n'}
+[1.457101] (time_travel) StdoutLine: {'line': b'copying time_travel/turtle_tf2_listener.py -> /home/capybariana/workspace/ros2_ws/build/time_travel/build/lib/time_travel\n'}
+[1.457418] (time_travel) StdoutLine: {'line': b'copying time_travel/__init__.py -> /home/capybariana/workspace/ros2_ws/build/time_travel/build/lib/time_travel\n'}
+[1.457743] (time_travel) StdoutLine: {'line': b'copying time_travel/turtle_tf2_broadcaster.py -> /home/capybariana/workspace/ros2_ws/build/time_travel/build/lib/time_travel\n'}
+[1.458223] (time_travel) StdoutLine: {'line': b'running install\n'}
+[1.463195] (time_travel) StdoutLine: {'line': b'running install_lib\n'}
+[1.481186] (time_travel) StdoutLine: {'line': b'running install_data\n'}
+[1.481757] (time_travel) StdoutLine: {'line': b'copying resource/time_travel -> /home/capybariana/workspace/ros2_ws/install/time_travel/share/ament_index/resource_index/packages\n'}
+[1.481947] (time_travel) StdoutLine: {'line': b'copying package.xml -> /home/capybariana/workspace/ros2_ws/install/time_travel/share/time_travel\n'}
+[1.482207] (time_travel) StdoutLine: {'line': b'creating /home/capybariana/workspace/ros2_ws/install/time_travel/share/time_travel/launch\n'}
+[1.482353] (time_travel) StdoutLine: {'line': b'copying launch/turtle_tf2_demo.launch.py -> /home/capybariana/workspace/ros2_ws/install/time_travel/share/time_travel/launch\n'}
+[1.482675] (time_travel) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.502035] (time_travel) StdoutLine: {'line': b"removing '/home/capybariana/workspace/ros2_ws/install/time_travel/lib/python3.10/site-packages/time_travel-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.502464] (time_travel) StdoutLine: {'line': b'Copying ../build/time_travel/time_travel.egg-info to /home/capybariana/workspace/ros2_ws/install/time_travel/lib/python3.10/site-packages/time_travel-0.0.0-py3.10.egg-info\n'}
+[1.503595] (time_travel) StdoutLine: {'line': b'running install_scripts\n'}
+[1.506945] (-) TimerEvent: {}
+[1.607293] (-) TimerEvent: {}
+[1.663869] (time_travel) StdoutLine: {'line': b'Installing turtle_tf2_broadcaster script to /home/capybariana/workspace/ros2_ws/install/time_travel/lib/time_travel\n'}
+[1.664167] (time_travel) StdoutLine: {'line': b'Installing turtle_tf2_listener script to /home/capybariana/workspace/ros2_ws/install/time_travel/lib/time_travel\n'}
+[1.664507] (time_travel) StdoutLine: {'line': b"writing list of installed files to '/home/capybariana/workspace/ros2_ws/build/time_travel/install.log'\n"}
+[1.696975] (time_travel) CommandEnded: {'returncode': 0}
+[1.707536] (-) TimerEvent: {}
+[1.709734] (time_travel) JobEnded: {'identifier': 'time_travel', 'rc': 0}
+[1.711042] (-) EventReactorShutdown: {}

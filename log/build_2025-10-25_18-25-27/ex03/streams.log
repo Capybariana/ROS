@@ -1,0 +1,47 @@
+[1.074s] Invoking command in '/home/capybariana/workspace/ros2_ws/src/ex03': PYTHONPATH=/home/capybariana/workspace/ros2_ws/build/ex03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex03 build --build-base /home/capybariana/workspace/ros2_ws/build/ex03/build install --record /home/capybariana/workspace/ros2_ws/build/ex03/install.log --single-version-externally-managed install_data
+[1.468s] running egg_info
+[1.490s] creating ../../build/ex03/ex03.egg-info
+[1.490s] writing ../../build/ex03/ex03.egg-info/PKG-INFO
+[1.491s] writing dependency_links to ../../build/ex03/ex03.egg-info/dependency_links.txt
+[1.491s] writing entry points to ../../build/ex03/ex03.egg-info/entry_points.txt
+[1.492s] writing requirements to ../../build/ex03/ex03.egg-info/requires.txt
+[1.492s] writing top-level names to ../../build/ex03/ex03.egg-info/top_level.txt
+[1.492s] writing manifest file '../../build/ex03/ex03.egg-info/SOURCES.txt'
+[1.542s] reading manifest file '../../build/ex03/ex03.egg-info/SOURCES.txt'
+[1.544s] writing manifest file '../../build/ex03/ex03.egg-info/SOURCES.txt'
+[1.544s] running build
+[1.544s] running build_py
+[1.544s] creating /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03
+[1.545s] copying ex03/turtle_tf2_broadcaster2.py -> /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03
+[1.545s] copying ex03/turtle_tf2_listener_delay.py -> /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03
+[1.545s] copying ex03/spawn_turtle.py -> /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03
+[1.545s] copying ex03/__init__.py -> /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03
+[1.546s] copying ex03/turtle_tf2_broadcaster.py -> /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03
+[1.546s] running install
+[1.551s] running install_lib
+[1.575s] creating /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03
+[1.575s] copying /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03/turtle_tf2_broadcaster2.py -> /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03
+[1.576s] copying /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03/turtle_tf2_listener_delay.py -> /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03
+[1.576s] copying /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03/spawn_turtle.py -> /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03
+[1.576s] copying /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03/__init__.py -> /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03
+[1.576s] copying /home/capybariana/workspace/ros2_ws/build/ex03/build/lib/ex03/turtle_tf2_broadcaster.py -> /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03
+[1.577s] byte-compiling /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03/turtle_tf2_broadcaster2.py to turtle_tf2_broadcaster2.cpython-310.pyc
+[1.578s] byte-compiling /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03/turtle_tf2_listener_delay.py to turtle_tf2_listener_delay.cpython-310.pyc
+[1.578s] byte-compiling /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03/spawn_turtle.py to spawn_turtle.cpython-310.pyc
+[1.579s] byte-compiling /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03/__init__.py to __init__.cpython-310.pyc
+[1.579s] byte-compiling /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+[1.579s] running install_data
+[1.580s] creating /home/capybariana/workspace/ros2_ws/install/ex03/share/ament_index/resource_index/packages
+[1.580s] copying resource/ex03 -> /home/capybariana/workspace/ros2_ws/install/ex03/share/ament_index/resource_index/packages
+[1.580s] copying package.xml -> /home/capybariana/workspace/ros2_ws/install/ex03/share/ex03
+[1.580s] creating /home/capybariana/workspace/ros2_ws/install/ex03/share/ex03/launch
+[1.581s] copying launch/turtle_tf2_demo.launch.py -> /home/capybariana/workspace/ros2_ws/install/ex03/share/ex03/launch
+[1.581s] running install_egg_info
+[1.602s] Copying ../../build/ex03/ex03.egg-info to /home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages/ex03-0.0.0-py3.10.egg-info
+[1.602s] running install_scripts
+[1.774s] Installing spawn_turtle script to /home/capybariana/workspace/ros2_ws/install/ex03/lib/ex03
+[1.775s] Installing turtle_tf2_broadcaster script to /home/capybariana/workspace/ros2_ws/install/ex03/lib/ex03
+[1.776s] Installing turtle_tf2_broadcaster2 script to /home/capybariana/workspace/ros2_ws/install/ex03/lib/ex03
+[1.776s] Installing turtle_tf2_listener_delay script to /home/capybariana/workspace/ros2_ws/install/ex03/lib/ex03
+[1.776s] writing list of installed files to '/home/capybariana/workspace/ros2_ws/build/ex03/install.log'
+[1.809s] Invoked command in '/home/capybariana/workspace/ros2_ws/src/ex03' returned '0': PYTHONPATH=/home/capybariana/workspace/ros2_ws/build/ex03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/capybariana/workspace/ros2_ws/install/ex03/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex03 build --build-base /home/capybariana/workspace/ros2_ws/build/ex03/build install --record /home/capybariana/workspace/ros2_ws/build/ex03/install.log --single-version-externally-managed install_data

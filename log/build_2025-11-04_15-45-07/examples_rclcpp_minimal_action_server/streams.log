@@ -1,0 +1,24 @@
+[0.913s] Invoking command in '/home/capybariana/workspace/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/capybariana/workspace/ros2_ws/install/ex03:/home/capybariana/workspace/install/ex10:/home/capybariana/workspace/install/ex02:/home/capybariana/workspace/ros2_ws/src/install/cleaning_robot:/opt/ros/humble /usr/bin/cmake /home/capybariana/workspace/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/capybariana/workspace/ros2_ws/install/examples_rclcpp_minimal_action_server
+[1.150s] -- The C compiler identification is GNU 11.4.0
+[2.137s] -- The CXX compiler identification is GNU 11.4.0
+[2.700s] -- Detecting C compiler ABI info
+[3.052s] -- Detecting C compiler ABI info - done
+[3.056s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.056s] -- Detecting C compile features
+[3.057s] -- Detecting C compile features - done
+[3.065s] -- Detecting CXX compiler ABI info
+[3.383s] -- Detecting CXX compiler ABI info - done
+[3.397s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.398s] -- Detecting CXX compile features
+[3.399s] -- Detecting CXX compile features - done
+[3.408s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.248s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.413s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.470s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.734s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.743s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.757s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.778s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.930s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[5.024s] Invoked command in '/home/capybariana/workspace/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/capybariana/workspace/ros2_ws/install/ex03:/home/capybariana/workspace/install/ex10:/home/capybariana/workspace/install/ex02:/home/capybariana/workspace/ros2_ws/src/install/cleaning_robot:/opt/ros/humble /usr/bin/cmake /home/capybariana/workspace/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/capybariana/workspace/ros2_ws/install/examples_rclcpp_minimal_action_server

@@ -1,0 +1,29 @@
+[1.094s] Invoking command in '/home/capybariana/workspace/ros2_ws/time_travel': PYTHONPATH=/home/capybariana/workspace/ros2_ws/build/time_travel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/capybariana/workspace/ros2_ws/install/time_travel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/time_travel build --build-base /home/capybariana/workspace/ros2_ws/build/time_travel/build install --record /home/capybariana/workspace/ros2_ws/build/time_travel/install.log --single-version-externally-managed install_data
+[1.396s] running egg_info
+[1.415s] writing ../build/time_travel/time_travel.egg-info/PKG-INFO
+[1.416s] writing dependency_links to ../build/time_travel/time_travel.egg-info/dependency_links.txt
+[1.416s] writing entry points to ../build/time_travel/time_travel.egg-info/entry_points.txt
+[1.416s] writing requirements to ../build/time_travel/time_travel.egg-info/requires.txt
+[1.417s] writing top-level names to ../build/time_travel/time_travel.egg-info/top_level.txt
+[1.453s] reading manifest file '../build/time_travel/time_travel.egg-info/SOURCES.txt'
+[1.455s] writing manifest file '../build/time_travel/time_travel.egg-info/SOURCES.txt'
+[1.455s] running build
+[1.455s] running build_py
+[1.455s] copying time_travel/turtle_tf2_listener.py -> /home/capybariana/workspace/ros2_ws/build/time_travel/build/lib/time_travel
+[1.456s] copying time_travel/__init__.py -> /home/capybariana/workspace/ros2_ws/build/time_travel/build/lib/time_travel
+[1.456s] copying time_travel/turtle_tf2_broadcaster.py -> /home/capybariana/workspace/ros2_ws/build/time_travel/build/lib/time_travel
+[1.457s] running install
+[1.462s] running install_lib
+[1.480s] running install_data
+[1.480s] copying resource/time_travel -> /home/capybariana/workspace/ros2_ws/install/time_travel/share/ament_index/resource_index/packages
+[1.480s] copying package.xml -> /home/capybariana/workspace/ros2_ws/install/time_travel/share/time_travel
+[1.481s] creating /home/capybariana/workspace/ros2_ws/install/time_travel/share/time_travel/launch
+[1.481s] copying launch/turtle_tf2_demo.launch.py -> /home/capybariana/workspace/ros2_ws/install/time_travel/share/time_travel/launch
+[1.481s] running install_egg_info
+[1.501s] removing '/home/capybariana/workspace/ros2_ws/install/time_travel/lib/python3.10/site-packages/time_travel-0.0.0-py3.10.egg-info' (and everything under it)
+[1.501s] Copying ../build/time_travel/time_travel.egg-info to /home/capybariana/workspace/ros2_ws/install/time_travel/lib/python3.10/site-packages/time_travel-0.0.0-py3.10.egg-info
+[1.502s] running install_scripts
+[1.662s] Installing turtle_tf2_broadcaster script to /home/capybariana/workspace/ros2_ws/install/time_travel/lib/time_travel
+[1.663s] Installing turtle_tf2_listener script to /home/capybariana/workspace/ros2_ws/install/time_travel/lib/time_travel
+[1.663s] writing list of installed files to '/home/capybariana/workspace/ros2_ws/build/time_travel/install.log'
+[1.696s] Invoked command in '/home/capybariana/workspace/ros2_ws/time_travel' returned '0': PYTHONPATH=/home/capybariana/workspace/ros2_ws/build/time_travel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/capybariana/workspace/ros2_ws/install/time_travel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/time_travel build --build-base /home/capybariana/workspace/ros2_ws/build/time_travel/build install --record /home/capybariana/workspace/ros2_ws/build/time_travel/install.log --single-version-externally-managed install_data
